@@ -22,7 +22,7 @@ const Counter = () => {
     };
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', marginTop: '20px' }} id='#counter'>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', marginTop: '50px' }} id='#counter'>
             <Typography variant="h4">
                 <div className='cnt-style'>
                     {count}
