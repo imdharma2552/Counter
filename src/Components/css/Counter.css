@@ -1,0 +1,123 @@
+.count_section {
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    background-color: pink;
+}
+
+.count {
+    font-size: 26px;
+}
+
+.cnt-style {
+    color: darkblue;
+    font-size: 50px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-in button {
+    background-color: darkgreen;
+    border-radius: 30px;
+
+}
+
+.btn-de button {
+    background-color: red;
+    border-radius: 30px;
+
+}
+
+.btn-add button {
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+
+
+.btn-reset button {
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+
+.btn-reduce button {
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+
+
+.btn-in button:hover {
+    background-color: #ffd700;
+    color: black;
+}
+
+.btn-de button:hover {
+    background-color: gold;
+    color: black;
+}
+
+.btn-add button:hover {
+    background-color: gold;
+    color: black;
+}
+
+.btn-reset button:hover {
+    background-color: gold;
+    color: black;
+}
+
+
+.btn-reduce button:hover {
+    background-color: gold;
+    color: black;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    margin-top: 25%;
+    margin-right: 50px;
+    color: red;
+    border-radius: 5px;
+}
+
+/* Styling for the container div */
+.input {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the "Input field" text */
+.input p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Styling for the input field itself */
+.input input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+/* Style the input field on focus (e.g., when it's clicked) */
+.input input:focus {
+    border: 1px solid orangered;
+    /* Change the border color when focused */
+    box-shadow: 0 0 5px orangered;
+    /* Add a slight shadow for focus */
+}
